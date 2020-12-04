@@ -1,0 +1,116 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.login-area {padding: 100px 50px 0;}
+.login-form {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    border: 1px solid #0099FF;
+}
+.login-icon {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #0099FF;
+    display: inline-block;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 95px;
+    color: #fff;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.login-title {
+    background-color: #0099FF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.section-borders {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 60px;
+    left: 0;
+}
+.section-borders span {
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    background-color: #0099FF;
+    border-radius: 2px;
+}
+.section-borders span.black-border {
+    background-color: #999;
+    width: 30px;
+    margin: 0 10px;
+}
+.login-form .input-group-addon {
+    background-color: transparent;
+    border-radius: 2px;
+    color: #0099FF;
+}
+.input-group{width: 100%;}
+.input-group-addon{width: 40px;}
+.login-form .form-control {
+    height: 40px;
+    border-radius: 2px;
+}
+.login-btn {
+    background-color: #0099FF;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.login-btn:hover {color: #ffffff;}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .login-form {
+        padding: 10px;
+        padding-top: 100px;
+    }
+}

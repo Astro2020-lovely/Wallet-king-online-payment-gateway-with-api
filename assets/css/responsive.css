@@ -1,0 +1,171 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .post-sidebar-area li a {font-size: 14px;}
+
+/* Starting of blog area */
+.single-blog-box {height: 570px;}
+/* Ending of blog area */
+ 
+/* Starting of user-panel menu area */
+.mainmenu.user-panel {text-align: left;}
+.mainmenu.user-panel li a {padding-left: 25px;}
+.panel-body.transaction h1 {font-size: 30px;}
+/* Ending of user-panel menu area */
+
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .single-team-area {margin-bottom: 30px;}
+ .section-title h2 {font-size: 24px;}
+ .boxed-btn {margin-top: 15px;}
+ .header-top-area li {padding: 0 8px;}
+ .padding-top-100 {padding-top: 140px;}
+ .mainmenu li a {padding-left: 25px;}
+
+	.top-column-right .socials {display: none;}
+ /*  Starting of counter area */
+.conuter-up-textArea {padding-top: 7%;}
+.single-counter-box {margin-bottom: 30px;}
+/*  Ending of counter area */
+
+/*  Starting of footer area  */
+.footer-email-subs {margin-top: 30px;}
+.single-footer-area {margin-bottom: 30px;}
+.section-padding.footer-area-wrapper {padding-bottom: 30px;}
+/*  Ending of footer area  */
+
+/* Starting of user-panel menu area */
+.mainmenu.user-panel {text-align: left;}
+.mainmenu.user-panel li a {padding-left: 15px; text-transform: capitalize;}
+.panel-body.transaction h1 {font-size: 20px;}
+
+.alert span {margin-top: 5px;}
+/* Ending of user-panel menu area */
+
+/*  Starting of paypal login area  */
+.paypal-login-rightside {margin-top: 20px;}
+/*  Ending of paypal login area  */
+
+
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.login-form {
+		padding: 10px;
+		padding-top: 100px;
+	}
+.login-area.container {
+		width: 100%;
+	}
+
+	.header-area-wrapper {padding: 30px 0;}
+	.top-column-left {display: none;}
+	.top-column-right .socials {display: none;}
+	.top-column-right {text-align: left;}
+	.header-top-area li {padding: 0 4px;}
+	.mainmenu {display: none;}
+ 	.slicknav_menu {
+ 		display: block; 
+ 		background-color: transparent; 
+ 		position: absolute; 
+ 		left: 0; 
+ 		top: -22px; 
+ 		z-index: 99;
+ 		width: 100%;
+ 	}
+ 	.logo {
+ 		position: absolute;
+		color: #fff;
+		top: -11px;
+		right: 17px;
+ 	}
+  .logo img {height: 30px;}
+ 	.single-team-area {margin-bottom: 30px;}
+ 	ul.gallery-menu li {margin-bottom: 5px;}
+ 	.section-padding.home-testimonial-wrapper .section-title.text-center {text-align: center;}
+	.testimonial-section .owl-nav {left: 0; bottom: -60px;}
+	.home-testimonial-wrapper{padding-bottom: 90px;}
+  	.social-sharing a {padding: 8px 6px 8px; margin-right: 5px;}
+    .section-padding.blog-post-wrapper {padding: 50px 0;}
+    .section-padding.blog-post-wrapper .section-title h2 {font-size: 25px;}
+    .section-padding.contact-area-wrapper {padding: 50px 0;}
+    .contact-info i {left: -15px;}
+    .contact-info {padding-left: 20px;}
+    .padding-top-100 {padding-top: 40px;}
+    .product-faq .panel-heading a {font-size: 16px;}
+
+/*  Starting of counter area */
+.single-counter-box {margin: 30px 0;}
+.conuter-up-textArea {padding-top: 0;}
+
+/*  Ending of counter area */
+
+/*  Starting of footer area  */
+.single-footer-area {margin-bottom: 20px;}
+.section-padding.footer-area-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer-social-links li a {margin-right: 8px;}
+.copy-right-side, .footer-social-links {text-align: center;}
+/*  Ending of footer area  */
+
+/* Starting of blog area */
+.single-blog-box {height: 570px;}
+/* Ending of blog area */
+
+/* Starting of settings */
+.setting-menu li a {margin-top: 5px;}
+/* Ending of settings */
+
+/* Starting of user-panel menu area */
+.dashboard-header h1 {font-size: 30px;}
+.dashboard-header .text-right {text-align: left; padding-top: 10px;}
+.panel-heading .colored-deposit {margin-top: 0;}
+.alert span {margin-top: 6px;}
+.transaction-faq .panel-body {padding: 5px;}
+.transaction-faq .info span {float: left;}
+.col-xs-12.info > div {padding-bottom: 5px;}
+/* Ending of user-panel menu area */
+
+/*  Starting of login area  */
+.login-area-wrapper .login_btn {float: left; margin-right: 10px;}
+.forgot-password {float: left !important; margin-top: 5px;}
+/*  Ending of login area  */
+
+/*  Starting of paypal login area  */
+.paypal-login-rightside {margin-top: 20px;}
+.paypal-login-header h2, 
+.paypal-login h2, .paypal-login-rightside h3
+ {font-size: 20px;}
+.paypal-addToCart.pull-right {
+  float: left !important;
+  padding: 10px 0;
+}
+.paypal-logo-header {padding-bottom: 45px;}
+.paypal-single-div {height: 60px;}
+.paypal-single-div .pull-left {margin-right: 10px;}
+.paypal-single-div .pull-right {float: left !important;}
+.paypal-login-footer a {padding-bottom: 10px;}
+/*  Ending of paypal login area  */
+
+
+/*  New CSS for support tickets  */
+.support-form {margin-top: 40px;}
+.support-ticket-wrapper .panel-body img {height: 40px; width: 40px;}
+.support-ticket-wrapper .ticket-date {font-size: 8px;}
+/*  /New CSS for support tickets  */
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.single-team-area img {height: auto;}
+ 	.team-area-hover {padding: 300px 0;}
+ 	.single-team-area:hover .member-details h4 {margin-top: -50px;}
+ 	.single-team-area:hover .member-social-icon {padding-top: 40px;}
+
+}

@@ -1,0 +1,261 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+/* Starting of Dashboard Sidebar menu area */
+.sidebar-header {font-size: 20px;}
+.single-dashboard-product-head {margin-bottom: 30px;}
+.left-side {width: 20%;}
+.right-side {
+    width: 80%;
+    margin-left: 20%;
+}
+#sidebar-menu {min-width: 20%; padding-left: 0;}
+#sidebar-menu ul li a {padding: 10px 0;}
+.dashboard-sidebar-area, .sidebar-menu-body {width: 20%;}
+/* Ending of Dashboard Sidebar menu area */
+
+/* Starting of Dashboard Customer details area */
+.tab-list li {height: 180px;}
+.tab-list li a p {padding: 6px 0;}
+.add-product_btn.customer-details {padding: 10px 12px;}
+.single-profile-area {margin: 40px 0px;}
+.single-profile-area .customer-email {font-size: 18px;}
+.tab-list li a h4 {font-size: 12px;}
+/* Ending of Dashboard Customer details area */
+
+/*  New CSS  */
+.wrong-invoice-wrapper .panel-body span {top: 12px; margin-left: 32%;}
+.wrong-invoice-wrapper .panel-body p {padding-top: 10px; text-align: left;}
+/*  /New CSS  */
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+/* Starting of Dashboard header items area */
+.single-dashboard-product-head {margin-bottom: 30px;}
+/* Ending of Dashboard header items area */
+
+/* Starting of Dashboard Sidebar menu area */
+.navbar.navbar-default {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.dashboard-sidebar-area {
+    margin-left: -250px;
+    transform: rotateY(90deg);
+}
+.dashboard-sidebar-area.active {
+    margin-left: 0;
+    transform: none;
+}
+#sidebarCollapse span:first-of-type,
+#sidebarCollapse span:nth-of-type(2),
+#sidebarCollapse span:last-of-type {
+    transform: none;
+    opacity: 1;
+    margin: 5px auto;
+}
+#sidebarCollapse.active span {
+    margin: 0 auto;
+}
+#sidebarCollapse.active span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+#sidebarCollapse.active span:nth-of-type(2) {
+    opacity: 0;
+}
+#sidebarCollapse.active span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+.left-side, .right-side {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.right-side {margin-left: 0;}
+#sidebar-menu {min-width: 28%;}
+.dashboard-sidebar-area, .sidebar-menu-body {width: 28%;}
+.sidebar-header-logo {margin-right: 8px;}
+/* Ending of Dashboard Sidebar menu area */
+
+/* Starting of Dashboard Website Contents area */
+.website-content-lower-form-right {padding-top: 10px;}
+/* Ending of Dashboard Website Contents area */
+
+/* Starting of Dashboard Customer details area */
+.tab-list li {height: 180px;}
+.tab-list li a p {height: 60px; padding: 12px 0;}
+.add-product_btn.customer-details {padding: 10px 10px;}
+.single-profile-area {margin: 40px 0px;}
+.single-profile-area .customer-email {font-size: 16px;}
+.customer-details-balance-btn,
+.customer-details-email-btn {font-size: 12px;}
+.tab-list li a h4 {font-size: 12px;}
+/* Ending of Dashboard Customer details area */
+
+/*  New CSS  */
+.wrong-invoice-wrapper .panel-body span {
+    margin-left: 34%;
+    top: 15px;
+}
+.wrong-invoice-wrapper .panel-body p {text-align: left; padding-top: 15px;}
+.single-reply-area .user img {}
+/*  /New CSS  */
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {  
+/* Starting of Dashboard header items area */
+.single-dashboard-product-head {margin-bottom: 30px;}
+.dashboard-product-type {font-size: 15px;}
+/* Ending of Dashboard header items area */  
+
+/* Starting of Dashboard Sidebar menu area */
+.left-side, .right-side {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.right-side {margin-left: 0;}
+#sidebar-menu {min-width: 85%;}
+.dashboard-sidebar-area, .sidebar-menu-body {width: 85%;}
+.navbar.navbar-default {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.dashboard-sidebar-area {
+    margin-left: -250px;
+    transform: rotateY(90deg);
+}
+.dashboard-sidebar-area.active {
+    margin-left: 0;
+    transform: none;
+}
+#sidebarCollapse span:first-of-type,
+#sidebarCollapse span:nth-of-type(2),
+#sidebarCollapse span:last-of-type {
+    transform: none;
+    opacity: 1;
+    margin: 5px auto;
+}
+#sidebarCollapse.active span {
+    margin: 0 auto;
+}
+#sidebarCollapse.active span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+#sidebarCollapse.active span:nth-of-type(2) {
+    opacity: 0;
+}
+#sidebarCollapse.active span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+/* Ending of Dashboard Sidebar menu area */
+
+/* Starting of Dashboard add-product-1 area */
+.add-product-box .form-horizontal {padding: 20px 10px;}
+.form-horizontal.customer-details {padding: 0;}
+.add-product-header h2 {
+    font-size: 18px;
+    margin-top: 6px;
+    display: block;
+}
+.add-product-header {padding-bottom: 65px;}
+.form-control.tags-input.input-md {height: 72px !important;}
+/* Ending of Dashboard add-product-1 area */
+
+/* Starting of Dashboard Social Links area */
+.switch {margin-top: 10px;}
+/* Ending of Dashboard Social Links area */
+
+/* Starting of Dashboard Products area */
+.add-back-btn, .add-newProduct-btn {
+    float: left;
+    margin: 12px 0;
+    display: block;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination { margin: 20px 0;}
+.dataTables_length {
+    margin: 10px 0;
+    padding-left: 0;
+}
+/* Ending of Dashboard Products area */
+
+/* starting of Dashboard Orders area */
+.add-product-header.orders {padding-bottom: 40px;}
+.order-header-right {
+    display: block;
+    float: left;
+    margin: 20px 0;
+}
+/* Ending of Dashboard Orders area */
+
+/* Starting of Dashboard Withdraws area */
+.pending-withdraw {
+    margin-left: 0;
+    margin-top: 15px;
+}
+/* Ending of Dashboard Withdraws area */
+
+/* Starting of Dashboard Main-category area */
+.main-category .add-newProduct-btn {
+    display: block;
+    float: left;
+    margin-top: 15px;
+}
+.main-category .add-product-header {padding-bottom: 70px;}
+.main-category  .add-product-header h2 {float: left;}
+/* Ending of Dashboard Main-category area */
+
+/* Starting of Dashboard Child-category area */
+.add-product-header.child {padding: 20px 10px 10px;}
+/* Ending of Dashboard Child-category area */
+
+/* Starting of Dashboard Website Contents area */
+.website-content-lower-form-right {padding-top: 10px;}
+/* Ending of Dashboard Website Contents area */
+
+/* Starting of Dashboard Website Pickup Locations area */
+.add-product_btn.pickup-locations {margin-top: 15px;}
+/* Ending of Dashboard Website Pickup Locations area */
+
+/* Starting of Dashboard home pie chart area */
+#chartContainer2 {
+    margin-bottom: 30px;
+}
+/* Ending of Dashboard home pie chart area */
+
+/* Starting of Dashboard Customer details area */
+.tab-list li {width: 100%; height: 180px;}
+.tab-list li a p {height: 60px; padding: 11px 0;}
+.add-product_btn.customer-details {padding: 10px 10px;}
+.single-profile-area {margin: 40px 0px;}
+.customer-email {font-size: 16px;}
+.customer-details-balance-btn, 
+.customer-details-email-btn {
+    padding: 12px 5px;
+    font-size: 12px;
+}
+.customer-details-balance-btn {margin-bottom: 15px;}
+.withdraw-btn.pull-right {
+    float: left !important;
+    margin-top: 10px;
+}
+/* Ending of Dashboard Customer details area */
+
+.table-responsive {border: none;}
+
+/*  Support Ticket CSS  */
+.wrong-invoice-wrapper .panel-body span {top: 0px; margin-left: 40%;}
+.wrong-invoice-wrapper .panel-body p {text-align: left;}
+.support-ticket-wrapper .panel-body img {height: 40px; width: 40px;}
+.support-ticket-wrapper .ticket-date {font-size: 8px;}
+/*  Support Ticket CSS  */
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
